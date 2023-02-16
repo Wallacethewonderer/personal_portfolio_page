@@ -1,0 +1,38 @@
+:root {
+    --background: #622a1d;
+    --headings: #bacac6;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background);
+    color: #0d0d0d;
+    padding: 1%;
+}
+
+h1 {
+    font-size: 200% ;
+    color: var(--headings);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    color: var(--headings);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
