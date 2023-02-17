@@ -13,7 +13,7 @@
 
 <body>
     
-    <header>
+    <header id="header">
         <h1>Yuhe Liang</h1>
         <nav>
           <ul>
@@ -24,13 +24,15 @@
         </nav>
     </header>
 
+    <div class="wallpaper"></div>
+
     <section id="section1">
         <h2>About me</h2>
         <p>Hello! My name is Yuhe Liang, and my nickname is Wallace. 
            Currently, I work as a server tester in the server manufacturing industry. 
            One of my weekly duties is to inspect and interact with the Performance Impact Assessment (PIA) Test, 
            which is run on the servers at the end of their production process. 
-           I am also responsible for the maintenance and repair of the servers. 
+           I am also responsible for the FQC and repair of the servers. 
            Recently, I have been learning web development through a UC Berkeley Extension program, 
            and this webpage is a showcase of the knowledge I have gained from the program so far. 
            In my free time, I enjoy music and ice skating. 
@@ -39,41 +41,41 @@
            I love the speed and smooth movement on the ice, which makes me feel like I am flying! 
            This is me!! Part of me!!!
         </p>
-        <img src="./assets/images/me.jpeg" 
+        <img id="rotate" src="./assets/images/me.jpeg" 
              alt="a selfie of a person with glasses">
 
     </section>
 
     <section id="section2">
-        <h2>My Works</h2>
-           <div>
-            <section>
+        <h2 id="variation">My Works</h2>
+           <div id="flex">
+            <section class="card">
                 <header>First Application</header>
                 <a href="https://wallacethewonderer.github.io/horiseon_refactor/">
-                    <img src="./assets/images/first-deployed-application.png" 
+                    <img id="enlarge" src="./assets/images/first-deployed-application.png" 
                          alt="an image shows the first deployed application of the developer">
                 </a>
             </section>
 
-            <section>
+            <section class="card">
                 <header>Photography</header>
                 <img src="./assets/images/placeholder-1.jpeg" 
                      alt="an image shows the sprouts in a garden">
             </section>
 
-            <section>
+            <section class="card">
                 <header>A Squirell</header>
                 <img src="./assets/images/placeholder-2.jpeg" 
                      alt="a squirell hanging on a tree">
             </section>
 
-            <section>
+            <section class="card">
                 <header>Calligraphy</header>
                 <img src="./assets/images/placeholder-3.jpeg" 
                      alt="a brush pen and a card with calligraphy on it">
             </section>
 
-            <section>
+            <section class=" card">
                 <header>DIY PC</header>
                 <img src="./assets/images/placeholder-4.jpeg" 
                      alt="a DIY personal computer's interior structure">
@@ -82,12 +84,14 @@
     </section>
 
     <section id="section3">
+        <footer>
         <h2>Contact Info</h2>
         <ul>
             <li><strong>Email:</strong> yuhe.liang@outlook.com</li>
             <li><strong>Phone:</strong> 415-830-2669</li>
-            <li><strong>Github:</strong> github.com/Wallacethewonderer</li>
+            <li><strong>Github:</strong> <a href="https://www.github.com/Wallacethewonderer">github.com/Wallacethewonderer</a></li>
           </ul>
+        </footer>
           
     </section>
     
